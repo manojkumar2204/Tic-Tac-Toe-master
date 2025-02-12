@@ -1,0 +1,77 @@
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  caret-color: transparent;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  min-height: 65vh;
+}
+
+section {
+  text-align: center;
+  padding: 30px;
+  background: #e5eaf5c0;
+}
+
+.hidden {
+  display: none;
+}
+
+#field {
+  padding: 30px;
+  min-width: 20vh;
+}
+
+#container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.cell {
+  font-family: "Finger Paint", sans-serif;
+  color: #232d55;
+  box-shadow: 0 0 0 1px #6e92a3;
+  border: 1px solid #6e92a3;
+  cursor: pointer;
+  line-height: 1em;
+  background: #a0d2ebc0;
+}
+
+.sidebar {
+  width: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+#status  {flex: 4;}
+
+.button_box {
+  box-sizing: border-box;
+  background: #d0bdf4;
+  border-radius: 4px;
+  padding: 10px 0;
+  margin: 0 0 10px 0;
+  border: none;
+}
+button:hover {
+  background-color: #8458B3;
+}
+
+#titleTurns {
+  font-size: .8em;
+}
+#numberTurns {
+  font-size: 1.4em;
+  margin: 0;
+}

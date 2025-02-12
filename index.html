@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Tic tac toe">
+  <meta name="keywords"
+        content="HTML, CSS, JavaScript, tic tac toe, ucode, unitfactory, cbl, cblworld">
+  <meta name="author" content="Tetiana Rohalska">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
+        rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h1 id="title">Tic tac toe</h1>
+  <main>
+    <section id="startBox" class="sidebar">
+      <label for="player1_name">Player 1:</label>
+      <input type="text" id="player1_name" maxlength="5" placeholder="Player 'X'"/>
+      <label for="player2_name">Player 2:</label>
+      <input type="text" id="player2_name" maxlength="5" placeholder="Player 'O'"/>
+      <label for="columns">Columns:</label>
+      <input type="number" id="columns" min="3" max="10" placeholder="3"/>
+      <label for="rows">Rows:</label>
+      <input type="number" id="rows" min="3" max="10" placeholder="3"/>
+      <label for="steps">Winn length: </label>
+      <input type="number" id="steps" min="3" max="10" placeholder="3"/>
+      <button id="start" class="button_box">START</button>
+    </section>
+    <script>
+      const columnsInput = document.getElementById('columns');
+      const rowsInput = document.getElementById('rows');
+      const stepsInput = document.getElementById('steps');
+  
+      function updateWinLengthLimit() {
+        const columns = parseInt(columnsInput.value) || 3;
+        const rows = parseInt(rowsInput.value) || 3;
+  
+        const maxWinLength = Math.max(columns, rows);
+  
+        stepsInput.max = maxWinLength;
+  
+        if (parseInt(stepsInput.value) > maxWinLength) {
+          stepsInput.value = maxWinLength;
+        }
+      }
+  
+      columnsInput.addEventListener('input', updateWinLengthLimit);
+      rowsInput.addEventListener('input', updateWinLengthLimit);
+  
+      updateWinLengthLimit();
+    </script>
+    <section id="field">
+    </section>
+    <section class="sidebar">
+      <p id="player1" class="button_box">-</p>
+      <p id="player2" class="button_box">-</p>
+      <div id="turns">
+        <p id="titleTurns">Number of turns</p>
+        <p id="numberTurns">0</p>
+      </div>
+      <h2 id="status"></h2>
+      <button id="playAgain" class="button_box">PLAY AGAIN</button>
+      <button id="restart" class="button_box">RESTART</button>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
