@@ -1,75 +1,91 @@
-# ❌⭕ Tic-Tac-Toe: Classic Game in the Browser
+# 🎮 Tic Tac Toe Master
 
-**Tic-Tac-Toe** is a lightweight, responsive web-based game built with **HTML**, **CSS**, and **JavaScript**. Designed for two players, this game brings back the nostalgic fun of the classic 3x3 grid.
-
----
-
-## 🎯 **Project Overview**
-- **Objective**: Provide a fun, browser-based Tic-Tac-Toe experience.
-- **Tech Stack**: HTML for structure, CSS for styling, JavaScript for game logic.
-- **Outcome**: A smooth, responsive, and interactive 2-player game.
+**Tic Tac Toe Master** is a responsive, browser-based game built using **HTML**, **CSS**, and **JavaScript**. It allows two players to compete in the classic Tic Tac Toe game with interactive UI, win tracking, and game reset functionality.
 
 ---
 
-## 🗂️ **Repository Structure**
-Tic-Tac-Toe/
-├── index.html # Main HTML file
-├── style.css # Styling for game board and layout
-├── script.js # Game logic (player turns, win check, reset)
-├── README.md
+## 🧠 Project Overview
 
+- **Objective**: Build a clean, interactive version of the traditional Tic Tac Toe game.
+- **Technology Stack**: HTML, CSS, JavaScript
+- **Features**: Two-player mode, win detection, draw detection, reset button, stylish design.
 
 ---
 
-## 🚀 **Getting Started**
+## 🗂️ Repository Structure
 
-### **Steps to Run**
-1. Clone or download this repository.
-2. Open the `index.html` file in any modern web browser.
-3. Start playing – no setup required!
-
----
-
-## 🕹️ **How to Play**
-1. Player X starts the game.
-2. Players take turns clicking on the cells.
-3. First to align 3 marks (horizontally, vertically, or diagonally) wins.
-4. Click **Reset** to start a new game.
+```
+TicTacToe-Master/
+├── index.html           # Main game layout
+├── style.css            # All game styling
+├── script.js            # Game logic and interactivity
+├── README.md            # Project documentation
+└── assets/              # (Optional) Images or icons
+```
 
 ---
 
-## 📸 **Screenshot**
-<!-- You can upload a screenshot and use the path below -->
-![Tic Tac Toe Screenshot](screenshot.png)
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+
+- A modern web browser (Chrome, Firefox, Edge, etc.)
+- No installations required — runs directly in the browser.
 
 ---
 
-## ✨ **Features**
-- Simple and clean UI
-- Two-player mode
-- Instant win/draw detection
-- Reset button for new rounds
-- Fully responsive on desktop and mobile
+### 🛠️ How to Run the Game
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/TicTacToe-Master.git
+   cd TicTacToe-Master
+   ```
+
+2. **Open the game**
+   - Just open the `index.html` file in your browser.
+   - Or host it on any static server like GitHub Pages or Netlify.
 
 ---
 
-## 📌 **Future Improvements**
-- Add single-player mode with AI
-- Add score tracking
-- Sound effects and animations
+## 🕹️ How to Play
+
+- Two players take turns to mark **X** or **O** in the 3×3 grid.
+- The first player to align three of their marks horizontally, vertically, or diagonally wins.
+- If all cells are filled and no winner, it's a draw.
+- Use the **Reset** button to start a new game.
 
 ---
 
-## 🤝 **Contributing**
-Have ideas to improve the game? Feel free to fork the repo and submit a pull request!
+## 🎨 Features
+
+- ✨ Clean UI with responsive design
+- 🧠 Intelligent win/draw detection
+- 🔄 Game reset without refreshing the page
+- 📱 Mobile-friendly layout
 
 ---
 
-## 📄 **License**
-MIT License – Free to use and modify.
+## 🧑‍💻 Contributing
+
+Want to improve the game? Here’s how:
+
+- Fork the repository
+- Make your changes (e.g., add AI player, animations, sound effects)
+- Submit a pull request!
 
 ---
 
-## 📬 **Contact**
-For queries or feedback, open an issue or reach out to manojKumar2204.
+## 📄 License
 
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📬 Contact
+
+For suggestions or issues, open an issue or contact manojKumar2204(https://github.com/manojKumar2204)
+
+---
+
+Enjoy the game and happy coding! 🎉
