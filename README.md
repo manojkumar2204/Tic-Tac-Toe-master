@@ -71,5 +71,5 @@ MIT License – Free to use and modify.
 ---
 
 ## 📬 **Contact**
-For questions or suggestions, open an issue or reach out via GitHub.
+For queries or feedback, open an issue or reach out to manojKumar2204.
 
